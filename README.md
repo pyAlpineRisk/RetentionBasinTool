@@ -6,5 +6,8 @@ In a time of increasing meteorological extreme events, high-resolution terrain m
 # Installation/Application
 The scripts are written for PyQGIS 3.16 and can be used by installing QGIS 3.16 or above.
 
+To install QGIS tools developed for QGIS 3.x, copy them into
+~/AppData/Roaming/QGIS/QGIS3/profiles/default/processing/scripts
+
 # License
 The tools in this repository are free software; you can redistribute them and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation
