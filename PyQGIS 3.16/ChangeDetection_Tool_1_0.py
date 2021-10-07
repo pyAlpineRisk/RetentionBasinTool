@@ -3,10 +3,11 @@
 """
 ***************************************************************************
 *                                                                         *
-*   QGIS ChangeDetection Tool 1.0                                            *
+*   QGIS ChangeDetection Tool 1.0                                         *
 *   pyAlpineRisk                                                          *
 *   Nicole Kamp                                                           *
-*   October 2021                                                              *
+*   niki.kamp@gmail.com                                                   *
+*   October 2021                                                          *
 *                                                                         *
 ***************************************************************************
 """
