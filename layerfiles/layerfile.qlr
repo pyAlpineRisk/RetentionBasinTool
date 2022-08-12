@@ -1,0 +1,10 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+    <customproperties/>
+    <layer-tree-group name="Kubatur-Tool - Ergebnisse" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+    </layer-tree-group>
+  </layer-tree-group>
+  <maplayers/>
+</qlr>
