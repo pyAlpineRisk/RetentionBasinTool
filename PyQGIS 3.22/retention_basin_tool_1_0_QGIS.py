@@ -195,11 +195,11 @@ Eingabe der Input- und Output-Parameter
             'MULTITHREADING': False,
             'NODATA': None,
             'OPTIONS': '',
-            'SET_RESOLUTION': False,
-            'SOURCE_CRS': QgsCoordinateReferenceSystem('EPSG:31287'),
-            'TARGET_CRS': QgsCoordinateReferenceSystem('EPSG:31287'),
-            'X_RESOLUTION': None,
-            'Y_RESOLUTION': None,
+            'SET_RESOLUTION': True,
+            'SOURCE_CRS': QgsCoordinateReferenceSystem('EPSG:2056'),
+            'TARGET_CRS': QgsCoordinateReferenceSystem('EPSG:2056'),
+            'X_RESOLUTION': 1,
+            'Y_RESOLUTION': 1,
             'OUTPUT': out
         }
         processing.run('gdal:cliprasterbymasklayer', alg_params, context=context, feedback=feedback, is_child_algorithm=True)
@@ -696,7 +696,7 @@ Eingabe der Input- und Output-Parameter
                 
         dst_ds = driver.CreateCopy(out14, src_ds, 0)
         dst_ds.SetGeoTransform(gt)
-        epsg = 31287
+        epsg = 2056
         srs = osr.SpatialReference()
         srs.ImportFromEPSG(epsg)
         dest_wkt = srs.ExportToWkt()
@@ -715,7 +715,7 @@ Eingabe der Input- und Output-Parameter
                 
         dst_ds = driver.CreateCopy(out15, src_ds, 0)
         dst_ds.SetGeoTransform(gt)
-        epsg = 31287
+        epsg = 2056
         srs = osr.SpatialReference()
         srs.ImportFromEPSG(epsg)
         dest_wkt = srs.ExportToWkt()
@@ -735,7 +735,7 @@ Eingabe der Input- und Output-Parameter
         driver = ogr.GetDriverByName('Esri Shapefile')
         ds = driver.CreateDataSource(out16)
         srs = osr.SpatialReference()
-        srs.ImportFromEPSG(31287)
+        srs.ImportFromEPSG(2056)
         dst_ds = ds.CreateLayer('', srs=srs)
         newField = ogr.FieldDefn('id', ogr.OFTInteger)
         #newField.SetPrecision(1)
