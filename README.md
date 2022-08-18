@@ -11,6 +11,7 @@
 
 <h2>2. Retention Basin Tool</h2>
 <p>GIS tool for determining the retention basin of flood retention structures. This tool allows an automated calculation of the volume within a generated intersection area, based on a query line. Based on the query line, detailed LiDAR terrain models are used to determine location and elevation formations and to generate an artificial surface. Using this generated surface and the LiDAR data, a difference model is created and the volume is calculated from the positive value areas. As a result, the tool delivers a corresponding intersection area and the sums from the volume calculation. The field of application ranges from reservoir surveys for water retention structures to the detection and analysis of terrain depressions to large-scale valley and basin floor analyses. This tool was implemented using the Python programming language and is available for the QGIS and ArcMap programs.</p>
+<p><strong>QGIS-Note:</strong> Add Layerfile (pyAlpineRisk/layerfiles/layerfile.qlr) to your QGIS-Project! </p>
 
 <h3>2.1. Case Examples</h3>
 
