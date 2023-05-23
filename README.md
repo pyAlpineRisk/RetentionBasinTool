@@ -33,9 +33,3 @@ To install QGIS tools developed for QGIS 3.x, copy them into
 ~/AppData/Roaming/QGIS/QGIS3/profiles/default/processing/scripts or in the upper part of the toolbox dialog you can add the scripts with ![mIconPythonFile](https://user-images.githubusercontent.com/52344347/136413201-b4a1f7d3-4053-4aa6-b11c-9433ae617057.png) Scripts - Add Script to Toolbox ...
 
 After that the tools can be found in the QGIS "Processing Toolbox" - Scripts</p>
-
-
-<h1>License</h1>
-<p>The tools in this repository are free software; you can redistribute them and/or modify them under the terms of the GNU General Public License as published by the Free Software Foundation.</p>
-
-![QCD_Tool](https://user-images.githubusercontent.com/52344347/136409495-74d62525-a26a-4dbd-8a8f-b2b18425acca.png)
