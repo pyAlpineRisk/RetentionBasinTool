@@ -23,7 +23,7 @@
 
 
 <h2>Installation/Application</h2>
-<p>The scripts are written for PyQGIS 3.22 and can be used by installing QGIS 3.22 or above.
+<p>The latest release is written for PyQGIS 3.28 and can be used by installing QGIS 3.28 or above.
 
 To install QGIS tools developed for QGIS 3.x, copy them into
 ~/AppData/Roaming/QGIS/QGIS3/profiles/default/processing/scripts or in the upper part of the toolbox dialog you can add the scripts with ![mIconPythonFile](https://user-images.githubusercontent.com/52344347/136413201-b4a1f7d3-4053-4aa6-b11c-9433ae617057.png) Scripts - Add Script to Toolbox ...
