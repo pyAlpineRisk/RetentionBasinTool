@@ -14,6 +14,7 @@
 *                                                                         *
 *   Bugs:                                                                 *
 *      1. Labeling with m³ not working yet                                *
+*      2. Layers in group cannot be switched on and off                   *
 ***************************************************************************
 """
 
